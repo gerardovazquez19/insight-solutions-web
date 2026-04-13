@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Insight Solutions | Automatización y IA</title>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#" class="logo">
+            <img src="assets/INSIGHT LOGO.png" alt="Logo Insight Solutions">
+        </a>
+        <div class="links">
+            <a href="#home" data-section="nav" data-value="home">Inicio</a>
+            <a href="#opiniones" data-section="nav" data-value="reviews">Opiniones</a>
+            <a href="#proyectos" data-section="nav" data-value="projects">Proyectos</a>
+            <a href="#sobre-mi" data-section="nav" data-value="about">Sobre Mí</a>
+            <button id="language-toggle" class="lang-btn">
+                <i class='bx bx-world'></i> <span id="lang-label">EN</span>
+            </button>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="left">
+            <h1 data-section="header" data-value="title">Automatiza tu Negocio, <br><span id="typing-text"></span></h1>
+            <p data-section="header" data-value="description">Especialista en desarrollo de soluciones con Python, optimización de flujos de trabajo con Excel y procesamiento inteligente de archivos PDF.</p>
+            <a href="https://wa.me/528971076348?text=Hola,%20me%20interesa%20automatizar%20mi%20empresa" target="_blank">
+                <i class='whatsapp bx bxl-whatsapp'></i>
+                <span data-section="header" data-value="button">Cotizar mi proyecto</span>
+            </a>
+        </div>
+        <img src="assets/collage.png" alt="Logo Insight Solutions" style="object-fit: contain;">
+    </header>
+
+    <h2 class="separator" id="opiniones" data-section="reviews" data-value="main-title">Opiniones de clientes</h2>
+
+    <div class="sell-nft">
+        <div class="item">
+            <div class="header">
+                <i class='bx bxs-quote-left'></i>
+                <h5 data-section="reviews" data-value="rev1-title">Eficiencia Logística</h5>
+            </div>
+            <p data-section="reviews" data-value="rev1-text">"La automatización de pedidos PDF a Excel redujo nuestro tiempo de procesamiento en un 70%. Excelente trabajo."</p>
+        </div>
+        <div class="item">
+            <div class="header">
+                <i class='bx bxs-quote-left'></i>
+                <h5 data-section="reviews" data-value="rev2-title">Precisión de Datos</h5>
+            </div>
+            <p data-section="reviews" data-value="rev2-text">"El software de control de inventarios eliminó por completo los errores de captura manual que teníamos."</p>
+        </div>
+        <div class="item">
+            <div class="header">
+                <i class='bx bxs-quote-left'></i>
+                <h5 data-section="reviews" data-value="rev3-title">Soporte Profesional</h5>
+            </div>
+            <p data-section="reviews" data-value="rev3-text">"Soluciones rápidas, código limpio en Python y una interfaz muy intuitiva con CustomTkinter."</p>
+        </div>
+    </div>
+
+    <h2 class="separator" id="proyectos" data-section="projects" data-value="main-title">Proyectos reales desarrollados</h2>
+
+    <div class="nft-shop">
+        <div class="nft-list proyectos-reales-list">
+            <div class="item proyecto-item">
+                <div class="proyecto-img-container">
+                    <img src="assets/trimestral.png" alt="Inventario">
+                </div>
+                <div class="info proyecto-info">
+                    <h5 data-section="projects" data-value="p1-title">Sistema de Control de Inventario</h5>
+                    <div class="detalles-tecnicos">
+                        <p><strong data-section="projects" data-value="p-problem">El Problema:</strong> <span data-section="projects" data-value="p1-desc-prob">El conteo físico trimestral era lento, propenso a errores humanos y difícil de auditar.</span></p>
+                        <p><strong data-section="projects" data-value="p-solution">La Solución:</strong> <span data-section="projects" data-value="p1-desc-sol">Desarrollamos una interfaz intuitiva con Python que agiliza el conteo, permite búsquedas rápidas y genera reportes automáticos de diferencias.</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item proyecto-item">
+                <div class="proyecto-img-container">
+                    <img src="assets/resurtir.png" alt="Excel">
+                </div>
+                <div class="info proyecto-info">
+                    <h5 data-section="projects" data-value="p2-title">Automatizador de Reportes Excel</h5>
+                    <div class="detalles-tecnicos">
+                        <p><strong data-section="projects" data-value="p-problem">El Problema:</strong> <span data-section="projects" data-value="p2-desc-prob">Consolidar datos de múltiples reportes Excel de proveedores requería horas de copiar y pegar manualmente.</span></p>
+                        <p><strong data-section="projects" data-value="p-solution">La Solución:</strong> <span data-section="projects" data-value="p2-desc-sol">Implementamos un script que lee, limpia y unifica datos de manera automática, entregando el reporte final en segundos.</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item proyecto-item">
+                <div class="proyecto-img-container">
+                    <img src="assets/login.png" alt="Login">
+                </div>
+                <div class="info proyecto-info">
+                    <h5 data-section="projects" data-value="p3-title">Módulo de Acceso Seguro</h5>
+                    <div class="detalles-tecnicos">
+                        <p><strong data-section="projects" data-value="p-problem">El Problema:</strong> <span data-section="projects" data-value="p3-desc-prob">Las herramientas internas no tenían control de acceso, poniendo en riesgo la integridad de la información sensible.</span></p>
+                        <p><strong data-section="projects" data-value="p-solution">La Solución:</strong> <span data-section="projects" data-value="p3-desc-sol">Diseñamos un inicio de sesión seguro con cifrado que garantiza que solo personal autorizado acceda a las funciones críticas.</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="separator" id="sobre-mi" data-section="about" data-value="main-title">Sobre Mí</h2>
+    <div class="about-section">
+        <div class="about-container">
+            <div class="about-text">
+                <h3 data-section="about" data-value="sub-title">Ingeniero Industrial & Desarrollador Python</h3>
+                <p data-section="about" data-value="description">Soy un apasionado de la eficiencia y la tecnología. Combino mis conocimientos en Ingeniería Industrial con el desarrollo en Python para crear herramientas que eliminan tareas repetitivas. Mi objetivo es ayudar a las empresas a escalar mediante la automatización inteligente, optimizando flujos de trabajo y transformando datos complejos en soluciones simples y funcionales.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h3 data-section="footer" data-value="motto">El futuro es automático. Deja que el software trabaje por ti mientras tú haces crecer tu negocio.</h3>
+        <div class="right">
+            <div class="links">
+                <a href="#" data-section="footer" data-value="link1">Política de Privacidad</a>
+                <a href="#" data-section="footer" data-value="link2">Soporte</a>
+                <a href="#home" data-section="footer" data-value="link3">Contacto</a>
+            </div>
+            <div class="social">
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-facebook-square'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+            <p data-section="footer" data-value="copyright">Copyright © 2026 Insight Solutions Automatization & AI. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+<script>
+    // --- Lógica de Traducción (Mismo código que proporcionaste) ---
+    const languages = {
+        "es": {
+            "nav": { "home": "Inicio", "reviews": "Opiniones", "projects": "Proyectos", "about": "Sobre Mí" },
+            "header": { "title": "Automatiza tu Negocio,", "description": "Especialista en desarrollo de soluciones con Python, optimización de flujos de trabajo con Excel y procesamiento inteligente de archivos PDF.", "button": "Cotizar mi proyecto" },
+            "reviews": { "main-title": "Opiniones de clientes", "rev1-title": "Eficiencia Logística", "rev1-text": "\"La automatización de pedidos PDF a Excel redujo nuestro tiempo de procesamiento en un 70%. Excelente trabajo.\"", "rev2-title": "Precisión de Datos", "rev2-text": "\"El software de control de inventarios eliminó por completo los errores de captura manual que teníamos.\"", "rev3-title": "Soporte Profesional", "rev3-text": "\"Soluciones rápidas, código limpio en Python y una interfaz muy intuitiva con CustomTkinter.\"" },
+            "projects": { "main-title": "Proyectos reales desarrollados", "p-problem": "El Problema:", "p-solution": "La Solución:", "p1-title": "Sistema de Control de Inventario", "p1-desc-prob": "El conteo físico trimestral era lento, propenso a errores humanos y difícil de auditar.", "p1-desc-sol": "Desarrollamos una interfaz intuitiva con Python que agiliza el conteo, permite búsquedas rápidas y genera reportes automáticos.", "p2-title": "Automatizador de Reportes Excel", "p2-desc-prob": "Consolidar datos de múltiples reportes Excel de proveedores requería horas de copiar y pegar manualmente.", "p2-desc-sol": "Implementamos un script que lee, limpia y unifica datos de manera automática, entregando el reporte final en segundos.", "p3-title": "Módulo de Acceso Seguro", "p3-desc-prob": "Las herramientas internas no tenían control de acceso, poniendo en riesgo la integridad de la información sensible.", "p3-desc-sol": "Diseñamos un inicio de sesión seguro con cifrado que garantiza que solo personal autorizado acceda a las funciones críticas." },
+            "about": { "main-title": "Sobre Mí", "sub-title": "Ingeniero Industrial & Desarrollador Python", "description": "Soy un apasionado de la eficiencia y la tecnología. Combino mis conocimientos en Ingeniería Industrial con el desarrollo en Python para crear herramientas que eliminan tareas repetitivas. Mi objetivo es ayudar a las empresas a escalar mediante la automatización inteligente, optimizando flujos de trabajo y transformando datos complejos en soluciones simples y funcionales." },
+            "footer": { "motto": "El futuro es automático. Deja que el software trabaje por ti mientras tú haces crecer tu negocio.", "link1": "Política de Privacidad", "link2": "Soporte", "link3": "Contacto", "copyright": "Copyright © 2026 Insight Solutions. Todos los derechos reservados." },
+            "typing": ["Multiplica tus Ganancias", "Optimiza tu Almacén", "Procesa PDFs a Excel", "Crea Soluciones con IA"]
+        },
+        "en": {
+            "nav": { "home": "Home", "reviews": "Reviews", "projects": "Projects", "about": "About Me" },
+            "header": { "title": "Automate Your Business,", "description": "Specialist in developing Python solutions, optimizing Excel workflows, and intelligent PDF processing.", "button": "Quote my project" },
+            "reviews": { "main-title": "Client Reviews", "rev1-title": "Logistics Efficiency", "rev1-text": "\"PDF to Excel automation reduced our processing time by 70%. Excellent work.\"", "rev2-title": "Data Accuracy", "rev2-text": "\"The inventory control software completely eliminated manual entry errors we used to have.\"", "rev3-title": "Professional Support", "rev3-text": "\"Fast solutions, clean Python code, and a very intuitive interface with CustomTkinter.\"" },
+            "projects": { "main-title": "Real Developed Projects", "p-problem": "The Problem:", "p-solution": "The Solution:", "p1-title": "Inventory Control System", "p1-desc-prob": "Quarterly physical counting was slow, error-prone, and difficult to audit.", "p1-desc-sol": "We developed an intuitive Python interface that speeds up counting, allows quick searches, and generates automatic difference reports.", "p2-title": "Excel Report Automator", "p2-desc-prob": "Consolidating data from multiple supplier Excel reports required hours of manual copying and pasting.", "p2-desc-sol": "We implemented a script that reads, cleans, and unifies data automatically, delivering the report in seconds.", "p3-title": "Secure Access Module", "p3-desc-prob": "Internal tools lacked access control, risking the integrity of sensitive information.", "p3-desc-sol": "We designed a secure login with encryption that ensures only authorized personnel can access critical functions." },
+            "about": { "main-title": "About Me", "sub-title": "Industrial Engineer & Python Developer", "description": "I am passionate about efficiency and technology. I combine my Industrial Engineering knowledge with Python development to create tools that eliminate repetitive tasks. My goal is to help businesses scale through intelligent automation, optimizing workflows and transforming complex data into simple, functional solutions." },
+            "footer": { "motto": "The future is automatic. Let the software work for you while you grow your business.", "link1": "Privacy Policy", "link2": "Support", "link3": "Contact", "copyright": "Copyright © 2026 Insight Solutions. All rights reserved." },
+            "typing": ["Multiply Your Profits", "Optimize Your Warehouse", "Process PDFs to Excel", "Create AI Solutions"]
+        }
+    };
+
+    let currentLang = "es";
+    let phrases = languages[currentLang].typing;
+    let phraseIndex = 0, charIndex = 0, isDeleting = false, typeSpeed = 100;
+    let typingTimeout; // Variable para controlar el tiempo
+
+    const textElement = document.getElementById('typing-text');
+
+    function type() {
+        const currentPhrase = phrases[phraseIndex];
+        
+        if (isDeleting) {
+            textElement.textContent = currentPhrase.substring(0, charIndex - 1);
+            charIndex--;
+            typeSpeed = 50;
+        } else {
+            textElement.textContent = currentPhrase.substring(0, charIndex + 1);
+            charIndex++;
+            typeSpeed = 100;
+        }
+
+        if (!isDeleting && charIndex === currentPhrase.length) {
+            isDeleting = true;
+            typeSpeed = 2000;
+        } else if (isDeleting && charIndex === 0) {
+            isDeleting = false;
+            phraseIndex = (phraseIndex + 1) % phrases.length;
+            typeSpeed = 500;
+        }
+
+        // Guardamos el timeout para poder cancelarlo si se cambia el idioma
+        typingTimeout = setTimeout(type, typeSpeed);
+    }
+
+    document.getElementById('language-toggle').addEventListener('click', function() {
+        // 1. Cambiar estado de idioma
+        currentLang = currentLang === "es" ? "en" : "es";
+        this.querySelector('#lang-label').textContent = currentLang === "es" ? "EN" : "ES";
+
+        // 2. Traducir textos estáticos
+        document.querySelectorAll("[data-section]").forEach(el => {
+            const section = el.dataset.section;
+            const value = el.dataset.value;
+            // Usamos innerHTML para mantener etiquetas como <br> o <span> si existen
+            if (section === "header" && value === "title") {
+                // Caso especial para no borrar el span del efecto
+                el.innerHTML = `${languages[currentLang][section][value]} <br><span id="typing-text"></span>`;
+            } else {
+                el.innerHTML = languages[currentLang][section][value];
+            }
+        });
+
+        // 3. Reiniciar el efecto de escritura con las nuevas frases
+        clearTimeout(typingTimeout); // Detenemos el proceso anterior
+        phrases = languages[currentLang].typing;
+        phraseIndex = 0;
+        charIndex = 0;
+        isDeleting = false;
+        
+        // Volvemos a capturar el nuevo elemento span creado en el paso 2
+        const newTextElement = document.getElementById('typing-text');
+        
+        // Función de escritura adaptada al reinicio
+        function restartType() {
+            const currentPhrase = phrases[phraseIndex];
+            if (isDeleting) {
+                newTextElement.textContent = currentPhrase.substring(0, charIndex - 1);
+                charIndex--;
+                typeSpeed = 50;
+            } else {
+                newTextElement.textContent = currentPhrase.substring(0, charIndex + 1);
+                charIndex++;
+                typeSpeed = 100;
+            }
+            if (!isDeleting && charIndex === currentPhrase.length) { isDeleting = true; typeSpeed = 2000; }
+            else if (isDeleting && charIndex === 0) { isDeleting = false; phraseIndex = (phraseIndex + 1) % phrases.length; typeSpeed = 500; }
+            typingTimeout = setTimeout(restartType, typeSpeed);
+        }
+        
+        restartType();
+    });
+
+    // Iniciar por primera vez
+    document.addEventListener('DOMContentLoaded', type);
+</script>
+</body>
+</html>
